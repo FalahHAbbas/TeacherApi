@@ -92,6 +92,32 @@ POST /api/v1/teachers
   "experienceYears": "OneToThree",
   "university": "University of Baghdad",
   "major": "Computer Science",
+  "subjects": [
+    "PRIMARY_ARABIC_LANGUAGE"
+  ],
   "assistant": false
 }
 ```
+
+##### Response
+
+```json
+{
+  "id": "fa2f2bfb-9c81-4e63-8d57-726c9d18d8d0",
+  "firstName": "string",
+  "lastName": "string",
+  "birthdate": "2024-03-28",
+  "phone": "aaa",
+  "governorate": "Baghdad",
+  "gender": "MALE",
+  "schoolName": "string",
+  "cv": "",
+  "photo": "",
+  "subjects": [
+    "PRIMARY_ARABIC_LANGUAGE"
+  ],
+  "schoolStages": [
+    "PRIMARY_STAGE_5"
+  ]
+}
+``` 
