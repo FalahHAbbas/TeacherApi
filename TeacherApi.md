@@ -121,3 +121,27 @@ POST /api/v1/teachers
   ]
 }
 ``` 
+
+### ExperienceYears
+![img_8.png](img_8.png)
+
+```angular2html
+GET /api/v1/teacher/enums/experienceYears
+```
+
+##### Response
+
+```json
+{
+  "experienceYears": [
+    "FreshGraduate",
+    "OneToThree",
+    "FourToSix",
+    "SevenToTen",
+    "ElevenToFifteen",
+    "MoreThanFifteen"
+  ]
+}
+```
+
+### EducationalLevel
